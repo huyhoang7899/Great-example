@@ -1,7 +1,7 @@
 .container {
 	font-family: sans-serif;
 	display: grid;
-	grid-template-columns: 5fr 4fr;
+	grid-template-columns: 3fr 2fr;
 }
 .header {
 	grid-column: 1/3;
