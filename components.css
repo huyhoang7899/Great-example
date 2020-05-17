@@ -16,7 +16,7 @@
 .logo {
 	height: 40px;
 	width: 120px;
-	background-image: url(./logo.png);
+	background-image: url(./image/logo.png);
 	background-size: contain;
 	background-repeat: no-repeat;
 }
@@ -30,16 +30,16 @@
 	background-repeat: no-repeat;
 }
 .home-icon {
-	background-image: url(./home.svg);
+	background-image: url(./image/home.svg);
 }
 .send-icon {
-	background-image: url(./send-white.svg);
+	background-image: url(./image/send-white.svg);
 }
 .compass-icon {
-	background-image: url(./compass.svg);
+	background-image: url(./image/compass.svg);
 }
 .love-icon {
-	background-image: url(./love.svg);
+	background-image: url(./image/love.svg);
 }
 .tool-icons img {
 	border-radius: 50%;
@@ -226,15 +226,18 @@ button.slick-prev, button.slick-prev:hover {
 	border-radius: 3px;
 	border: 1px solid #dbdbdb;
 }
-.img-story {
+/*.img-story {
 	margin-right: 10px;
-}
+}*/
 .avatar-post {
 	display: flex;
 	align-items: center;
 }
 .avatar-post img{
 	border-radius: 50%;
+}
+.name-post {
+	margin-left: 10px;
 }
 .border-gradient {
 	display: inline-flex;
