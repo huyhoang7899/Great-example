@@ -10,6 +10,7 @@ Component header
 
 .container {
 	font-size: 14px;
+	background-color: rgba(var(--b3f,250,250,250),1);
 }
 .header {
 	height: 54px;
@@ -18,6 +19,7 @@ Component header
 	border-bottom: 1px solid #dbdbdb;
 	align-items: center;
 	padding: 0 20%;
+	background-color: #ffffff;
 }
 .logo {
 	height: 40px;
@@ -61,6 +63,7 @@ Component header
   background-position: 62px 5px;
   border-radius: 3px;
   border: 1px solid #dbdbdb;
+  background-color: rgba(var(--b3f,250,250,250),1);
 }
 .header input:focus {
   padding-left: 16px;
@@ -190,6 +193,7 @@ Component story
 	margin: 30px 20px 0 auto;
 }
 .list-story {
+	background-color: #ffffff;
 	display: inline-flex;
 	border: 1px solid #dbdbdb;
 	width: 614px;
@@ -248,6 +252,9 @@ button.slick-prev, button.slick-prev:hover {
 --------------------------------------------------------
 Component main
 */
+.post {
+	background-color: #ffffff;
+}
 .header-post {
 	display: flex;
 	width: 582px;
